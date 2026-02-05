@@ -1,4 +1,29 @@
-$ curl
-https://api.github.com/repos/solene/mcino-Introduction-to-Git-and-GitHub/pulls/3
-{ “pull_request”: “valid”, “from_fork”:
-“solene/mcino-Introduction-to-Git-and-GitHub”, “status”: “open” }
+{
+  "url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/1",
+  "id": 987654321,
+  "state": "open",
+  "title": "Fix typo in README",
+  "user": {
+    "login": "<YOUR_GITHUB_USERNAME>"
+  },
+  "head": {
+    "label": "<YOUR_GITHUB_USERNAME>:bug-fix-typo",
+    "ref": "bug-fix-typo",
+    "sha": "e4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v1w2x",
+    "repo": {
+      "name": "mcino-Introduction-to-Git-and-GitHub",
+      "full_name": "<YOUR_GITHUB_USERNAME>/mcino-Introduction-to-Git-and-GitHub",
+      "private": false,
+      "fork": true,
+      "html_url": "https://github.com/<YOUR_GITHUB_USERNAME>/mcino-Introduction-to-Git-and-GitHub"
+    }
+  },
+  "base": {
+    "label": "ibm-developer-skills-network:main",
+    "ref": "main",
+    "repo": {
+      "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+      "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+    }
+  }
+}
