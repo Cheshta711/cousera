@@ -1,4 +1,10 @@
-$ git checkout main Switched to branch ‘main’
+user@terminal:~/project$ git checkout main
+Switched to branch 'main'
 
-$ git merge bug-fix-typo Updating 3f2a1b..9c4d2e Fast-forward README.md
-| 1 + 1 file changed, 1 insertion(+)
+user@terminal:~/project$ git merge bug-fix-typo
+Updating a1b2c3d..e4f5g6h
+Fast-forward
+ index.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+user@terminal:~/project$
