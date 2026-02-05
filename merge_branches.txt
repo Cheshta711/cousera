@@ -1,0 +1,4 @@
+$ git checkout main Switched to branch ‘main’
+
+$ git merge bug-fix-typo Updating 3f2a1b..9c4d2e Fast-forward README.md
+| 1 + 1 file changed, 1 insertion(+)

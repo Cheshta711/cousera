@@ -1,0 +1,1 @@
+$ git branch -a * main bug-fix-typo feature-update

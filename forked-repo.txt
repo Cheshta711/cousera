@@ -1,0 +1,4 @@
+$ curl -X POST
+https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/forks
+{ “message”: “Repository successfully forked”, “full_name”:
+“solene/mcino-Introduction-to-Git-and-GitHub”, “owner”: “solene” }

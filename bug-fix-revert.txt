@@ -1,0 +1,4 @@
+$ curl
+https://api.github.com/repos/solene/mcino-Introduction-to-Git-and-GitHub/pulls/3
+{ “pull_request”: “valid”, “from_fork”:
+“solene/mcino-Introduction-to-Git-and-GitHub”, “status”: “open” }
