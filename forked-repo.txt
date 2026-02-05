@@ -1,4 +1,28 @@
-$ curl -X POST
-https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/forks
-{ “message”: “Repository successfully forked”, “full_name”:
-“solene/mcino-Introduction-to-Git-and-GitHub”, “owner”: “solene” }
+{
+  "id": 543210987,
+  "node_id": "R_kgDOIkL...",
+  "name": "mcino-Introduction-to-Git-and-GitHub",
+  "full_name": "<GITHUB_USERNAME>/mcino-Introduction-to-Git-and-GitHub",
+  "private": false,
+  "owner": {
+    "login": "<GITHUB_USERNAME>",
+    "id": 1234567,
+    "type": "User",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/<GITHUB_USERNAME>/mcino-Introduction-to-Git-and-GitHub",
+  "description": "Introduction to Git and GitHub",
+  "fork": true,
+  "url": "https://api.github.com/repos/<GITHUB_USERNAME>/mcino-Introduction-to-Git-and-GitHub",
+  "created_at": "2026-02-06T02:57:38Z",
+  "updated_at": "2026-02-06T02:57:40Z",
+  "pushed_at": "2026-02-06T02:57:39Z",
+  "parent": {
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+    "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+  },
+  "source": {
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+    "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+  }
+}
