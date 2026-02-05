@@ -1,1 +1,4 @@
-$ git branch -a * main bug-fix-typo feature-update
+user@terminal:~/mcino-Introduction-to-Git-and-GitHub$ git branch -vv
+  bug-fix-typo f9a2b3c [origin/bug-fix-typo] Corrected spelling in index.html
+* main         a1b2c3d [origin/main] Initial commit for project
+  feature-auth d4e5f6g [origin/feature-auth: ahead 1] Added login logic
